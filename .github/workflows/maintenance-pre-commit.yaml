@@ -6,7 +6,7 @@ on:
 
 jobs:
   pre-commit-maintenance:
-    if: github.repository == vars.ORG_WORKLOAD_CORE_INFRA_REPO
+    if: github.repository == 'authoritybrands/aws-monthly-costs'
     permissions:
       contents: write
       pull-requests: write
